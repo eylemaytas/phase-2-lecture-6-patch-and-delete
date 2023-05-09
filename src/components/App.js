@@ -20,7 +20,7 @@ function App() {
     if(searchText === ""){
       return true
     }
-    return pet.name.toUpperCase().includes(searchText.toUpperCase())
+    return pet.name.toUpperCase().includes(searchText.toUpperCase()) || pet.animal_type.toUpperCase().includes(searchText.toUpperCase())
   })
 
   function adoptPet(id){
