@@ -1,20 +1,6 @@
 {
   "pets": [
     {
-      "id": 1,
-      "name": "Fido",
-      "image": "./images/dog.jpeg",
-      "likes": 9,
-      "animal_type": "Dog"
-    },
-    {
-      "id": 2,
-      "name": "Kitty",
-      "image": "./images/cat.png",
-      "likes": 9,
-      "animal_type": "Cat"
-    },
-    {
       "id": 3,
       "name": "Hammy",
       "image": "./images/hamster.jpeg",
